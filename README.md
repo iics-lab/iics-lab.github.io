@@ -29,5 +29,4 @@ Then visit `http://localhost:8000`.
 - `openings.html` - recruiting information
 - `contact.html` - contact page
 - `assets/img/` - hero image and PI photos
-- `assets/files/Zilu_Liu_CV.pdf` - PI CV
 

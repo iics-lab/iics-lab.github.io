@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">RF millimeter-wave IC and chip-antenna interface visual</title>
+  <desc id="desc">A millimeter-wave chip drives a phased antenna array with beams toward 6G and satellite links.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081118"/><stop offset="0.52" stop-color="#102339"/><stop offset="1" stop-color="#071b1c"/></linearGradient>
+    <radialGradient id="beam" cx="45%" cy="55%" r="62%"><stop offset="0" stop-color="#45e0d0" stop-opacity="0.45"/><stop offset="0.55" stop-color="#45e0d0" stop-opacity="0.12"/><stop offset="1" stop-color="#45e0d0" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+  </defs>
+  <rect width="960" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="600" rx="28" fill="url(#grid)"/>
+  <ellipse cx="610" cy="270" rx="330" ry="230" fill="url(#beam)"/>
+  <g transform="translate(116 305)">
+    <rect x="0" y="0" width="260" height="170" rx="22" fill="#0c2228" stroke="#78e6df" stroke-opacity="0.55" stroke-width="2"/>
+    <rect x="42" y="38" width="176" height="96" rx="14" fill="#142f37" stroke="#f2c75c" stroke-opacity="0.75"/>
+    <path d="M62 70h136M62 102h136M96 48v78M132 48v78M168 48v78" stroke="#66eadf" stroke-opacity="0.55" stroke-width="3"/>
+    <circle cx="130" cy="86" r="15" fill="#ffd66b" opacity="0.9" filter="url(#glow)"/>
+    <path d="M260 52h62M260 88h62M260 124h62" stroke="#d7e4e1" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  </g>
+  <g transform="translate(462 225)">
+    <rect x="0" y="0" width="250" height="210" rx="24" fill="#0f2b31" stroke="#78e6df" stroke-opacity="0.7"/>
+    <g fill="#203f49" stroke="#91fff4" stroke-opacity="0.5">
+      <rect x="34" y="35" width="38" height="38" rx="7"/><rect x="106" y="35" width="38" height="38" rx="7"/><rect x="178" y="35" width="38" height="38" rx="7"/>
+      <rect x="34" y="91" width="38" height="38" rx="7"/><rect x="106" y="91" width="38" height="38" rx="7"/><rect x="178" y="91" width="38" height="38" rx="7"/>
+      <rect x="34" y="147" width="38" height="38" rx="7"/><rect x="106" y="147" width="38" height="38" rx="7"/><rect x="178" y="147" width="38" height="38" rx="7"/>
+    </g>
+  </g>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M714 267 C805 212 848 160 892 96" stroke="#45e0d0" stroke-width="5" opacity="0.8"/>
+    <path d="M714 317 C815 310 860 300 914 268" stroke="#ffd66b" stroke-width="4" opacity="0.8"/>
+    <path d="M714 374 C794 420 850 454 912 500" stroke="#45e0d0" stroke-width="5" opacity="0.75"/>
+  </g>
+  <g transform="translate(806 62) rotate(-18)">
+    <rect x="0" y="0" width="74" height="34" rx="8" fill="#d7e4e1" opacity="0.9"/>
+    <rect x="-34" y="8" width="28" height="18" rx="4" fill="#45e0d0" opacity="0.9"/>
+    <rect x="80" y="8" width="28" height="18" rx="4" fill="#45e0d0" opacity="0.9"/>
+    <path d="M37 34v26" stroke="#d7e4e1" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(826 250)">
+    <path d="M0 100h94L48 0z" fill="#172e39" stroke="#f2c75c" stroke-opacity="0.75"/>
+    <path d="M31 66h34M20 88h56" stroke="#45e0d0" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

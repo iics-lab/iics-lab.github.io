@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Low-power mixed-signal biomedical IC visual</title>
+  <desc id="desc">A wearable biomedical sensor patch connects to a miniature mixed-signal IC and signal traces.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071716"/><stop offset="0.52" stop-color="#123139"/><stop offset="1" stop-color="#182036"/></linearGradient>
+    <linearGradient id="patch" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9fff7" stop-opacity="0.9"/><stop offset="1" stop-color="#75d9d0" stop-opacity="0.72"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+  </defs>
+  <rect width="960" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="600" rx="28" fill="url(#grid)"/>
+  <g transform="translate(130 128)">
+    <rect x="0" y="74" width="410" height="248" rx="70" fill="url(#patch)" opacity="0.86"/>
+    <ellipse cx="205" cy="198" rx="138" ry="90" fill="#ffffff" opacity="0.18"/>
+    <rect x="145" y="132" width="120" height="120" rx="24" fill="#0d2428" stroke="#f2c75c" stroke-opacity="0.75"/>
+    <path d="M172 176h66M172 208h66M190 150v82M222 150v82" stroke="#64e6dc" stroke-opacity="0.62" stroke-width="4"/>
+    <circle cx="205" cy="192" r="16" fill="#45e0d0" filter="url(#glow)"/>
+    <g fill="#0e2d32" opacity="0.55"><circle cx="80" cy="198" r="20"/><circle cx="330" cy="198" r="20"/></g>
+  </g>
+  <g transform="translate(540 150)">
+    <rect x="0" y="0" width="304" height="260" rx="28" fill="#0f2730" stroke="#7ee8df" stroke-opacity="0.55"/>
+    <path d="M32 160 h40 l20 -54 l34 108 l34 -158 l34 104 h76" fill="none" stroke="#ffd66b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M32 62h242M32 100h242M32 204h242" stroke="#ffffff" stroke-opacity="0.1" stroke-width="2"/>
+    <circle cx="92" cy="106" r="6" fill="#45e0d0"/><circle cx="160" cy="214" r="6" fill="#45e0d0"/><circle cx="228" cy="160" r="6" fill="#45e0d0"/>
+  </g>
+  <g fill="none" stroke-linecap="round" filter="url(#glow)">
+    <path d="M395 286 C455 286 485 258 540 258" stroke="#45e0d0" stroke-width="6"/>
+    <path d="M395 322 C462 332 492 354 540 354" stroke="#ffd66b" stroke-width="4"/>
+  </g>
+  <g transform="translate(150 470)" fill="#45e0d0" opacity="0.55">
+    <circle cx="0" cy="0" r="4"/><circle cx="56" cy="20" r="3"/><circle cx="118" cy="4" r="3"/><circle cx="680" cy="-28" r="4"/><circle cx="728" cy="8" r="3"/>
+  </g>
+</svg>

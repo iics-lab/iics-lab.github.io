@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">AI-assisted IC design methodology visual</title>
+  <desc id="desc">Neural network nodes guide circuit layout and performance curves for IC design.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#081519"/><stop offset="0.5" stop-color="#142532"/><stop offset="1" stop-color="#151933"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+  </defs>
+  <rect width="960" height="600" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="600" rx="28" fill="url(#grid)"/>
+  <g transform="translate(78 292)">
+    <rect x="0" y="0" width="480" height="210" rx="26" fill="#0d2328" stroke="#6fe6dc" stroke-opacity="0.55"/>
+    <g fill="none" stroke="#4bded4" stroke-opacity="0.5" stroke-width="3">
+      <path d="M42 46h150v42h92v54h140"/>
+      <path d="M42 144h92V88h160"/>
+      <path d="M230 46v118h86"/>
+      <path d="M360 52h62v84h-72"/>
+    </g>
+    <g fill="#1c4248" stroke="#f2c75c" stroke-opacity="0.7">
+      <rect x="46" y="38" width="64" height="42" rx="8"/><rect x="184" y="70" width="74" height="48" rx="8"/><rect x="318" y="120" width="74" height="48" rx="8"/><rect x="348" y="36" width="74" height="48" rx="8"/>
+    </g>
+  </g>
+  <g transform="translate(522 74)">
+    <g stroke="#6ff0e6" stroke-opacity="0.55" stroke-width="3" fill="none">
+      <path d="M40 86L164 36L270 86L380 42"/><path d="M40 188L164 136L270 188L380 136"/><path d="M40 86L164 136L270 86L380 136"/><path d="M40 188L164 36L270 188L380 42"/>
+      <path d="M164 36v100M270 86v102"/>
+    </g>
+    <g filter="url(#glow)">
+      <circle cx="40" cy="86" r="15" fill="#45e0d0"/><circle cx="40" cy="188" r="15" fill="#45e0d0"/>
+      <circle cx="164" cy="36" r="15" fill="#ffd66b"/><circle cx="164" cy="136" r="15" fill="#45e0d0"/>
+      <circle cx="270" cy="86" r="15" fill="#ffd66b"/><circle cx="270" cy="188" r="15" fill="#45e0d0"/>
+      <circle cx="380" cy="42" r="15" fill="#ffd66b"/><circle cx="380" cy="136" r="15" fill="#45e0d0"/>
+    </g>
+  </g>
+  <g transform="translate(586 342)">
+    <rect x="0" y="0" width="292" height="142" rx="22" fill="#0e252c" stroke="#8df4ec" stroke-opacity="0.55"/>
+    <path d="M30 104 C78 28 112 114 154 62 S226 20 260 42" fill="none" stroke="#ffd66b" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M30 100H264M30 22V104" stroke="#d7e4e1" stroke-opacity="0.35" stroke-width="3"/>
+    <circle cx="154" cy="62" r="7" fill="#45e0d0" filter="url(#glow)"/>
+  </g>
+  <g fill="none" stroke="#f2c75c" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <path d="M480 332 C540 286 576 232 616 196"/>
+    <path d="M522 416 C560 398 588 390 622 386"/>
+  </g>
+</svg>

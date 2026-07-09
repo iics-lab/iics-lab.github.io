@@ -295,6 +295,22 @@ h3 {
   margin: 0 0 18px;
 }
 
+.keyword-list {
+  display: grid;
+  gap: 8px;
+  margin: 18px 0 24px;
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.keyword-list p {
+  margin: 0;
+  color: #2c3a3d;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
 .bio-links {
   display: flex;
   flex-wrap: wrap;
